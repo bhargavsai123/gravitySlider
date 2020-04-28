@@ -51,7 +51,7 @@ function draw() {
     var fVal = gSlider.value();
     text("Gravity: "+fVal,152,390);
    // console.log(fVal);
-    console.log(engine.world.gravity);
+    console.log("What do we use particle.js for????");
 
     fill(255);
     text(mouseX+","+mouseY,10,15);
